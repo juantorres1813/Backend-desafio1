@@ -1,0 +1,20 @@
+{
+  "name": "proyecto-final-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "desafio1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juantorres1813/Backend-desafio1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juantorres1813/Backend-desafio1/issues"
+  },
+  "homepage": "https://github.com/juantorres1813/Backend-desafio1#readme"
+}
