@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/juantorres1813/Backend-desafio1#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.2"
   }
 }
