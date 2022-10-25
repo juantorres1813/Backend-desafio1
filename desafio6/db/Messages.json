@@ -1,0 +1,27 @@
+[
+  {
+    "mensaje": "hola",
+    "createdAt": "24/10/2022 09:10:53 hs",
+    "id": 1
+  },
+  {
+    "mensaje": "asdasd",
+    "createdAt": "24/10/2022 09:10:56 hs",
+    "id": 2
+  },
+  {
+    "mensaje": "asdasd",
+    "createdAt": "24/10/2022 09:11:37 hs",
+    "id": 3
+  },
+  {
+    "mensaje": "Hola como te va?",
+    "createdAt": "24/10/2022 09:11:42 hs",
+    "id": 4
+  },
+  {
+    "mensaje": "asdasdas asd asd asdas dasd asd asdasdas",
+    "createdAt": "24/10/2022 09:12:27 hs",
+    "id": 5
+  }
+]
