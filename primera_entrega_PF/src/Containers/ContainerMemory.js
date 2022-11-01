@@ -22,7 +22,7 @@ class ContainerMemory {
         return this.elements.find((element) => element.id === id);
     }
     // {price: 299, nombre: "producto modifci"}
-    updateById(id, newData) {
+    updateById1(id, newData) {
         const elementIndex = this.elements.findIndex((element) => element.id == id);
 
         if (elementIndex === -1) return null;

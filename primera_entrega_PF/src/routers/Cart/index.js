@@ -31,7 +31,7 @@ router.post("/:cartId/products", async (req, res) => {
     // TODO
     cart.products.push(product);
 
-    const updatedCart = await CartDao.updateById(Number(cartId), cart);
+    const updatedCart = await CartDao.updateById1(Number(cartId), cart);
 
     res.send({ success: true, cart: updatedCart });
 });
@@ -39,7 +39,7 @@ router.post("/:cartId/products", async (req, res) => {
 router.delete("/:id/productos/:id_prod", async (req, res) => {
     const { id, id_prod } = req.params;
 
-    const cart = await CartDao.getById(id);
+    const cart = await CartDao.getById(Number(id));
 
     if (!cart) {
         res.status(404).json({ error: 'Carrito no encontrado' });
