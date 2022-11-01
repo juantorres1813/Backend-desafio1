@@ -1,0 +1,84 @@
+[
+   {
+      "timestamp": "29/10/2022 23:03:03",
+      "products": [
+         {
+            "title": "title1",
+            "description": "title1desc",
+            "code": "code1",
+            "thumbnail": "url1",
+            "price": 1023,
+            "stock": 23,
+            "timestamp": "29/10/2022 22:21:53",
+            "id": 1
+         },
+         {
+            "title": "title1",
+            "description": "title1desc",
+            "code": "code1",
+            "thumbnail": "url1",
+            "price": 1023,
+            "stock": 23,
+            "timestamp": "29/10/2022 22:21:53",
+            "id": 1
+         },
+         {
+            "title": "title1",
+            "description": "title1desc",
+            "code": "code1",
+            "thumbnail": "url1",
+            "price": 1023,
+            "stock": 23,
+            "timestamp": "29/10/2022 22:21:53",
+            "id": 1
+         },
+         {
+            "title": "title1",
+            "description": "title1desc",
+            "code": "code1",
+            "thumbnail": "url1",
+            "price": 103,
+            "stock": 13,
+            "timestamp": "29/10/2022 22:21:53",
+            "id": 1
+         },
+         {
+            "title": "title2",
+            "description": "title2desc",
+            "code": "code2",
+            "thumbnail": "url2",
+            "price": 10443,
+            "stock": 34,
+            "timestamp": "29/10/2022 23:51:42",
+            "id": 2
+         },
+         {
+            "title": "title2",
+            "description": "title2desc",
+            "code": "code2",
+            "thumbnail": "url2",
+            "price": 10443,
+            "stock": 34,
+            "timestamp": "29/10/2022 23:51:42",
+            "id": 2
+         }
+      ],
+      "id": 1
+   },
+   {
+      "timestamp": "1/11/2022 1:21:05",
+      "products": [
+         {
+            "title": "title3",
+            "description": "title3desc",
+            "code": "code3",
+            "thumbnail": "url3",
+            "price": 103,
+            "stock": 32,
+            "timestamp": "1/11/2022 1:16:56",
+            "id": 3
+         }
+      ],
+      "id": 3
+   }
+]
