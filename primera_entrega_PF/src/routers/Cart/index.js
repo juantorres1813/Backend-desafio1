@@ -36,7 +36,7 @@ router.post("/:cartId/products", async (req, res) => {
     res.send({ success: true, cart: updatedCart });
 });
 
-router.delete("/:id/productos/:id_prod", async (req, res) => {
+router.delete("/:id/products/:id_prod", async (req, res) => {
     const { id, id_prod } = req.params;
 
     const cart = await CartDao.getById(Number(id));
@@ -47,7 +47,7 @@ router.delete("/:id/productos/:id_prod", async (req, res) => {
     }
 
     cart.products = cart.products.filter(product =>
-        product.id !== id_prod
+        product.id !== Number(id_prod)
     );
 
     await CartDao.updateById2(cart);

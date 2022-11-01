@@ -118,8 +118,8 @@ class ContainerFilesystem {
     }
 
     async updateById2(content) {
-        const wasFound = false;
-        const product = content;
+        let wasFound = false;
+        let product = content;
 
         try {
 
