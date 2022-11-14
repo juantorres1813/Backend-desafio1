@@ -1,0 +1,125 @@
+1)
+
+db.productos.insertMany([{
+    title: "producto1",
+    price: 143, 
+    thumbnail: "foto1.jpg"
+},
+{
+    title: "producto2",
+    price: 285, 
+    thumbnail: "foto2.jpg"
+},
+{
+    title: "producto3",
+    price: 352, 
+    thumbnail: "foto3.jpg"
+},
+{
+    title: "producto4",
+    price: 475, 
+    thumbnail: "foto4.jpg"
+},
+{
+    title: "producto5",
+    price: 534, 
+    thumbnail: "foto5.jpg"
+},
+{
+    title: "producto6",
+    price: 634, 
+    thumbnail: "foto6.jpg"
+},
+{
+    title: "producto7",
+    price: 750, 
+    thumbnail: "foto7.jpg"
+},
+{
+    title: "producto8",
+    price: 3504, 
+    thumbnail: "foto8.jpg"
+},
+{
+    title: "producto9",
+    price: 4686, 
+    thumbnail: "foto9.jpg"
+},
+{
+    title: "producto10",
+    price: 4747, 
+    thumbnail: "foto10.jpg"
+},
+]
+)
+
+db.mensajes.insertMany([
+    {message: "Hola",
+    email: "juan123@gmail.com"},
+    {message: "Hola, como va?",
+    email: "gonzalo@gmail.com"},
+    {message: "Todo bien y vos?",
+    email: "juan123@gmail.com"},
+    {message: "Bien, todo bien",
+    email: "gonzalo@gmail.com"},
+    {message: "Como van los estudios?",
+    email: "juan123@gmail.com"},
+    {message: "Bien bien, ya casi termino el curso",
+    email: "gonzalo@gmail.com"},
+    {message: "Que bueno che, yo ando igual",
+    email: "juan123@gmail.com"},
+    {message: "Y la familia?",
+    email: "gonzalo@gmail.com"},
+    {message: "Bien aca andamos todos bien por suerte",
+    email: "juan123@gmail.com"},
+    {message: "Que bueno saberlo che, aca tambien",
+    email: "gonzalo@gmail.com"}
+])
+
+3)
+
+db.productos.find()
+db.mensajes.find()
+
+4)
+
+db.productos.countDocuments()
+db.mensajes.countDocuments()
+
+5)
+
+a)
+
+db.productos.insert({title:"producto11",price:4502,thumbnail:"foto11.jpg"})
+
+b)
+
+i)
+
+db.productos.find({price: {$lt: 1000}})
+
+ii)
+
+db.productos.find({price: {$gt: 1000, $lt: 3000}})
+
+iii)
+
+db.productos.find({price: {$gt: 3000}})
+
+iv)
+
+db.productos.find().sort({price: 1}).limit(1).skip(2)
+
+c)
+
+db.productos.updateMany({}, {$set: {stock: 100}})
+
+d)
+
+db.productos.updateMany({price: {$gt: 4000}}, {$set: {stock: 0}})
+
+e)
+
+db.productos.deleteMany({price: {$lt: 1000}})
+
+db.productos.find()
