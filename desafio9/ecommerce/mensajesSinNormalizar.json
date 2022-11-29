@@ -1,0 +1,68 @@
+[
+  {
+    "author": {
+      "id": "afsdgfuh@gmail.com",
+      "nombre": "gonzalo",
+      "apellido": "perez",
+      "edad": "45",
+      "alias": "gonzpe",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNKaUSfxV73INOlzQ4T8Nc36DavIpZAkwGwF2oyS0&s"
+    },
+    "text": "hola gente como va"
+  },
+  {
+    "author": {
+      "id": "afsdfuh@gmail.com",
+      "nombre": "gonzalo",
+      "apellido": "perez",
+      "edad": "45",
+      "alias": "gonzpe",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNKaUSfxV73INOlzQ4T8Nc36DavIpZAkwGwF2oyS0&s"
+    },
+    "text": "hola gente como vaa"
+  },
+  {
+    "author": {
+      "id": "juan123@gmail.com",
+      "nombre": "juan",
+      "apellido": "gimenez",
+      "edad": "23",
+      "alias": "juan123",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNKaUSfxV73INOlzQ4T8Nc36DavIpZAkwGwF2oyS0&s"
+    },
+    "text": "hola todo bien?"
+  },
+  {
+    "author": {
+      "id": "pablo6534@gmail.com",
+      "nombre": "pablo",
+      "apellido": "torres",
+      "edad": "32",
+      "alias": "pablotor",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNKaUSfxV73INOlzQ4T8Nc36DavIpZAkwGwF2oyS0&s"
+    },
+    "text": "bien bien y ustedes?"
+  },
+  {
+    "author": {
+      "id": "natalia523@gmail.com",
+      "nombre": "natalia",
+      "apellido": "fernandez",
+      "edad": "21",
+      "alias": "nati523",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNKaUSfxV73INOlzQ4T8Nc36DavIpZAkwGwF2oyS0&s"
+    },
+    "text": "hola como va?"
+  },
+  {
+    "author": {
+      "id": "lautaro934@gmail.com",
+      "nombre": "lautaro",
+      "apellido": "vassallo",
+      "edad": "25",
+      "alias": "lauta453",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNKaUSfxV73INOlzQ4T8Nc36DavIpZAkwGwF2oyS0&s"
+    },
+    "text": "hola gente todo listo?"
+  }
+]
