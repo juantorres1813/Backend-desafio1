@@ -9,7 +9,7 @@ class MongoService {
     }
 
     async connect() {
-        mongoose.connect('mongodb+srv://test:NMZQbTCltcIhpUa3@cluster0.zxw9v.mongodb.net/usersdb?retryWrites=true&w=majority')
+        mongoose.connect('')
             .then(() => console.log('Mongo connected'))
             .catch(err => console.log(err));
     }
